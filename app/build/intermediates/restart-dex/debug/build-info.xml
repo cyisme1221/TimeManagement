@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="x86"
-    api-level="24"
+    api-level="25"
     build-mode="COLD"
-    density="420dpi"
+    density="560dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1501011797179"
-    token="-4651968871408541214"
+    timestamp="1501636317473"
+    token="-6346287715412850076"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
@@ -23,58 +23,58 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="C:\_CS-5540\TimeManagement\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
-
     <build
         build-mode="FULL"
-        timestamp="1501011663263"
+        timestamp="1501634156592"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\_CS-5540\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\Users\Mark\Desktop\zy2\zy2\TimeManagement\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\_CS-5540\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\Mark\Desktop\zy2\zy2\TimeManagement\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\_CS-5540\TimeManagement\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\Mark\Desktop\zy2\zy2\TimeManagement\TimeManagement\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Mark\Desktop\zy2\zy2\TimeManagement\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Mark\Desktop\zy2\zy2\TimeManagement\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Mark\Desktop\zy2\zy2\TimeManagement\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Mark\Desktop\zy2\zy2\TimeManagement\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Mark\Desktop\zy2\zy2\TimeManagement\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Mark\Desktop\zy2\zy2\TimeManagement\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Mark\Desktop\zy2\zy2\TimeManagement\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Mark\Desktop\zy2\zy2\TimeManagement\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Mark\Desktop\zy2\zy2\TimeManagement\TimeManagement\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1501636279572"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\_CS-5540\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\_CS-5540\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\_CS-5540\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\_CS-5540\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\_CS-5540\TimeManagement\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\_CS-5540\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\_CS-5540\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\_CS-5540\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\_CS-5540\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\Mark\Desktop\zy2\zy2\TimeManagement\TimeManagement\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1501011797179"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\_CS-5540\TimeManagement\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
+        timestamp="1501636317473"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

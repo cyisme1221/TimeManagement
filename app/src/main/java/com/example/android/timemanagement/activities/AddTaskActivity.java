@@ -93,17 +93,7 @@ public class AddTaskActivity extends AppCompatActivity {
 
 
         addTaskButton = (Button) findViewById(R.id.btn_actionAddTask);
-        //disable button until all field are filled
-        /*
-        addTaskButton.setEnabled(false);
-        if(!dateSetDate.getText().toString().trim().isEmpty() &&
-                !subjectEditText.getText().toString().trim().isEmpty() &&
-                !projectEditText.getText().toString().trim().isEmpty() &&
-                !startSetTime.getText().toString().trim().isEmpty() &&
-                !endSetTime.getText().toString().trim().isEmpty()){
-            addTaskButton.setEnabled(true);
-        }
-        */
+
         addTaskButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -123,9 +113,8 @@ public class AddTaskActivity extends AppCompatActivity {
                     startSetTime.clear();
                     endSetTime.clear();
 
-                    //if add task success go to main activity
-                    Intent intent = new Intent(context, MainActivity.class);
-                    startActivity(intent);
+
+                    finish();
                 }else{
                     Toast.makeText(context, "Add task failed", Toast.LENGTH_SHORT).show();
                 }
